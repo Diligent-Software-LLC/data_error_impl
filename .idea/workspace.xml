@@ -46,7 +46,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574351108566</updated>
-      <workItem from="1574351111778" duration="7807000" />
+      <workItem from="1574351111778" duration="8301000" />
+      <workItem from="1574473017322" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1574351852964</created>
@@ -69,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574366701852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Wrote README.">
+      <created>1574390549680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574390549680</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,7 +88,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -90,7 +100,8 @@
     <MESSAGE value="Initialized repository." />
     <MESSAGE value="Added helper file." />
     <MESSAGE value="Typed all code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Typed all code." />
+    <MESSAGE value="Wrote README." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote README." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

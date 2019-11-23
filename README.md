@@ -26,7 +26,9 @@ Or install it yourself as:
 
 - `ACCEPTABLE_CORE_TYPES`
 
-An array containing acceptable object types.
+An array containing acceptable object types. The acceptable types are 
+Complex, Float, Integer, Rational, String, Bignum, Fixnum, NilClass, Symbol, 
+and Time.
 
 - `INTERFACE`
 
