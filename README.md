@@ -1,4 +1,4 @@
-# DataErrorImpl
+# DataErrorImpl [![Gem Version](https://badge.fury.io/rb/data_error_impl.svg)](https://badge.fury.io/rb/data_error_impl) ![Gem](https://img.shields.io/gem/dt/data_error_impl)
 
 Implements and subclasses the `DataError` interface. Defines the acceptable data 
 argument types. Contains six methods. Three are `public` instance methods, one 
