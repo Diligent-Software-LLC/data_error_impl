@@ -2,6 +2,7 @@ require "data_error_impl/version"
 
 class DataErrorImpl < DataError
 
+  DEFAULT_MESSAGE       = "The data type argued is unacceptable. Refer documentation."
   ACCEPTABLE_CORE_TYPES = [:Complex, :Float, :Integer, :Rational, :String,
                            :Bignum, :Fixnum, :NilClass, :Symbol, :Time]
   INTERFACE             = superclass()

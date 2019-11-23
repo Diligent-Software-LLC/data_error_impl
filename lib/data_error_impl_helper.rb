@@ -3,8 +3,9 @@
 # Implements helper methods.
 module DataErrorImplHelper
 
-  DEFAULT_MESSAGE       = DataErrorImpl::DEFAULT_MESSAGE
-  ACCEPTABLE_CORE_TYPES = DataErrorImpl::ACCEPTABLE_CORE_TYPES
+  DEFAULT_MESSAGE       = "The data type argued is unacceptable. Refer documentation."
+  ACCEPTABLE_CORE_TYPES = [:Complex, :Float, :Integer, :Rational, :String,
+                           :Bignum, :Fixnum, :NilClass, :Symbol, :Time]
 
   # choose(explanation).
   # @abstract:
