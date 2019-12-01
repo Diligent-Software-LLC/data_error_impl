@@ -9,8 +9,7 @@ Gem::Specification.new do |spec|
   spec.email   = ["bradleytannor@gmail.com"]
 
   spec.summary     = %q{Implements and subclasses the DataError interface.}
-  spec.description = %q{Implements and subclasses the DataError interface.
-Defines the acceptable data argument types.}
+  spec.description = %q{Fixed architectural problems.}
   spec.homepage    = "https://github.com/scientist8202/data_error_impl"
   spec.license     = "MIT"
 
@@ -41,5 +40,6 @@ Defines the acceptable data argument types.}
   spec.add_development_dependency "minitest", "~> 5.0"
 
   spec.add_dependency 'data_error'
+  spec.add_dependency 'argument_type_error_helper'
 
 end

@@ -1,8 +1,8 @@
 # DataErrorImpl [![Gem Version](https://badge.fury.io/rb/data_error_impl.svg)](https://badge.fury.io/rb/data_error_impl) ![Gem](https://img.shields.io/gem/dt/data_error_impl)
 
 Implements and subclasses the `DataError` interface. Defines the acceptable data 
-argument types. Contains six methods. Three are `public` instance methods, one 
-is a `private` instance method, and two are helper methods.
+argument types. Contains five methods. Three are `public` instance methods, and  
+two are `private` instance method.
 
 ## Installation
 
@@ -57,13 +57,6 @@ Takes a presumed acceptably typed object.
 Setter method. In the case `explanation` is `nil`, sets the message attribute the 
 `DEFAULT_MESSAGE`. Otherwise, sets the message attribute the explanation.
 
-### Helper methods
-
-#### `choose(explanation)`
-
-In the case the argument is `nil`, returns the `DEFAULT_MESSAGE`. Otherwise, 
-returns the argument.
-
 #### `raise?(presumed_acceptable)`
 
 In the case the argument is an unacceptable data type or a data structure, returns 
@@ -77,7 +70,7 @@ To install this gem onto your local machine, run `bundle exec rake install`.
 
 ### Testing
 
-All methods were basically tested.
+Unit and integration tested.
 
 ## Contributing
 

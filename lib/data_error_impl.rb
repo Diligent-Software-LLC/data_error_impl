@@ -2,10 +2,11 @@ require "data_error_impl/version"
 
 class DataErrorImpl < DataError
 
-  DEFAULT_MESSAGE       = "The data type argued is unacceptable. Refer documentation."
   ACCEPTABLE_CORE_TYPES = [:Complex, :Float, :Integer, :Rational, :String,
                            :Bignum, :Fixnum, :NilClass, :Symbol, :Time]
   INTERFACE             = superclass()
+
+  include ArgumentTypeErrorHelper
 
   # initialize(message_argument = nil).
   # @abstract:
@@ -40,6 +41,19 @@ class DataErrorImpl < DataError
   # the DEFAULT_MESSAGE. Otherwise, sets the message attribute the explanation.
   def message=(explanation)
     @message = choose(explanation)
+  end
+
+  # raise?(presumed_acceptable).
+  # @abstract:
+  # In the case the argument is an unacceptable data type or a data structure,
+  # returns false. Otherwise, returns true.
+  # @param presumed_acceptable: an object presumed acceptable.
+  def raise?(presumed_acceptable)
+
+    object_class     = presumed_acceptable.class()
+    symbolized_class = object_class.to_s().to_sym()
+    return (!ACCEPTABLE_CORE_TYPES.include?(symbolized_class))
+
   end
 
 end
