@@ -9,6 +9,6 @@ require 'argument_type_error_helper'
 # @attribute message: the user's error message, and a String object.
 class DataErrorImpl < DataError
 
-  VERSION = "1.1.0"
+  VERSION = "1.2.0"
 
 end

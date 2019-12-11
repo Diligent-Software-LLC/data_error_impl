@@ -9,7 +9,9 @@ Gem::Specification.new do |spec|
   spec.email   = ["bradleytannor@gmail.com"]
 
   spec.summary     = %q{Implements and subclasses the DataError interface.}
-  spec.description = %q{Fixed architectural problems.}
+  spec.description = %q{Implements and subclasses the `DataError` interface. Defines the acceptable data
+argument types. Contains five methods. Three are `public` instance methods,
+one is a `private` instance method, and one is a helper method.}
   spec.homepage    = "https://github.com/scientist8202/data_error_impl"
   spec.license     = "MIT"
 

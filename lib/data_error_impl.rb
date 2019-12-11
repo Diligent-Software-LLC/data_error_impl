@@ -1,4 +1,5 @@
 require "data_error_impl/version"
+require 'data_error_impl_helper'
 
 class DataErrorImpl < DataError
 
@@ -7,6 +8,7 @@ class DataErrorImpl < DataError
   INTERFACE             = superclass()
 
   include ArgumentTypeErrorHelper
+  include DataErrorImplHelper
 
   # initialize(message_argument = nil).
   # @abstract:
@@ -30,7 +32,7 @@ class DataErrorImpl < DataError
   # raises.
   # @param data_type: a presumed acceptable data type.
   def raise_exception(data_type)
-    (raise INTERFACE, message()) if (raise?(data_type))
+    (raise INTERFACE, message()) if (acceptable?(data_type))
   end
 
   private
@@ -41,19 +43,6 @@ class DataErrorImpl < DataError
   # the DEFAULT_MESSAGE. Otherwise, sets the message attribute the explanation.
   def message=(explanation)
     @message = choose(explanation)
-  end
-
-  # raise?(presumed_acceptable).
-  # @abstract:
-  # In the case the argument is an unacceptable data type or a data structure,
-  # returns false. Otherwise, returns true.
-  # @param presumed_acceptable: an object presumed acceptable.
-  def raise?(presumed_acceptable)
-
-    object_class     = presumed_acceptable.class()
-    symbolized_class = object_class.to_s().to_sym()
-    return (!ACCEPTABLE_CORE_TYPES.include?(symbolized_class))
-
   end
 
 end
