@@ -41,6 +41,6 @@ one is a `private` instance method, and two are helper methods.}
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
 
-  spec.add_dependency 'data_error', `~> 1.0.1`
+  spec.add_dependency 'data_error', '~> 1.0.1'
 
 end

@@ -204,30 +204,30 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="318" y="112" key="CommitChangelistDialog2" timestamp="1576081700926">
+    <state x="318" y="112" key="CommitChangelistDialog2" timestamp="1576178581809">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="318" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1576081700926" />
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1576178174090">
+    <state x="318" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1576178581809" />
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1576178633845">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1576178174090" />
-    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1576178174088">
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1576178633845" />
+    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1576178633844">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1576178174088" />
-    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1576178174087">
+    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1576178633844" />
+    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1576178633844">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1576178174087" />
-    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1576178174089">
+    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1576178633844" />
+    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1576178633844">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1576178174089" />
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1576082059151">
+    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1576178633844" />
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1576178670371">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1576082059151" />
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1576178670371" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1576153072574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
