@@ -1,15 +1,15 @@
 # DataErrorImpl [![Gem Version](https://badge.fury.io/rb/data_error_impl.svg)](https://badge.fury.io/rb/data_error_impl) ![Gem](https://img.shields.io/gem/dt/data_error_impl)
 
 Implements and subclasses the `DataError` interface. Defines the acceptable data 
-argument types. Contains five methods. Three are `public` instance methods, 
-one is a `private` instance method, and one is a helper method.
+argument types. Contains six methods. Three are `public` instance methods, 
+one is a `private` instance method, and two are helper methods.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'data_error_impl', `~> 1.2.0`
+gem 'data_error_impl', `~> 1.3.0`
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install data_error_impl -v 1.2.0
+    $ gem install data_error_impl -v 1.3.0
 
 ## Usage
 
@@ -26,7 +26,7 @@ Or install it yourself as:
 
 - `ACCEPTABLE_CORE_TYPES`
 
-An array containing acceptable object types. The acceptable types are 
+An array containing acceptable types. The acceptable types are 
 Complex, Float, Integer, Rational, String, Bignum, Fixnum, NilClass, Symbol, 
 and Time.
 
@@ -63,6 +63,12 @@ Setter method. In the case `explanation` is `nil`, sets the message attribute th
 
 In the case the argument is an unacceptable data type or a data structure, returns 
 `false`. Otherwise, returns `true`.
+
+#### `choose(explanation)`
+
+In the case the argument is `nil` or any type excluding `String`, returns the 
+`DEFAULT_MESSAGE`. Otherwise, returns the argument. The entire 
+`ArgumentTypeError` family calls the method in the message attribute setter.
 
 ## Development
 

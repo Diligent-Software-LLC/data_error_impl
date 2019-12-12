@@ -1,14 +1,10 @@
 require "data_error_impl/version"
-require 'data_error_impl_helper'
 
 class DataErrorImpl < DataError
 
   ACCEPTABLE_CORE_TYPES = [:Complex, :Float, :Integer, :Rational, :String,
                            :Bignum, :Fixnum, :NilClass, :Symbol, :Time]
   INTERFACE             = superclass()
-
-  include ArgumentTypeErrorHelper
-  include DataErrorImplHelper
 
   # initialize(message_argument = nil).
   # @abstract:

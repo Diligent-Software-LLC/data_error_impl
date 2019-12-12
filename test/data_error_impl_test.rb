@@ -5,6 +5,8 @@ require "test_helper"
 # Tests the DataErrorImpl class and the DataErrorImplHelper module.
 class DataErrorImplTest < Minitest::Test
 
+  include DataErrorImplHelper
+
   TEST_MESSAGE         = 'Test.'
   DEFAULT_MESSAGE      = DataErrorImpl::DEFAULT_MESSAGE
   IMPLEMENTATION_CLASS = DataErrorImpl::INTERFACE
@@ -22,6 +24,28 @@ class DataErrorImplTest < Minitest::Test
   # DataErrorImpl defined its version.
   def test_that_it_has_a_version_number()
     refute_nil ::DataErrorImpl::VERSION
+  end
+
+  # test_nil_argument_returns_default().
+  # @abstract:
+  # A nil argument returns the DEFAULT_MESSAGE.
+  def test_nil_argument_returns_default()
+
+    argument      = nil
+    return_object = choose(argument)
+    assert_equal(DEFAULT_MESSAGE, return_object)
+
+  end
+
+  # test_string_argument_returns_string_argument().
+  # @abstract:
+  # A String argument returns the same String argument.
+  def test_string_argument_returns_string_argument()
+
+    argument = ''
+    choice   = choose(argument)
+    assert_equal(argument, choice)
+
   end
 
   # test_test_message_initialized().

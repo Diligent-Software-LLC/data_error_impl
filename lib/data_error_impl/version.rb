@@ -1,7 +1,7 @@
 # Copyright (C) 2019 Diligent Software LLC. All rights reserved. Released
 # under the MIT License.
 require 'data_error'
-require 'argument_type_error_helper'
+require 'data_error_impl_helper'
 
 # DataErrorImpl.
 # @abstract:
@@ -9,6 +9,8 @@ require 'argument_type_error_helper'
 # @attribute message: the user's error message, and a String object.
 class DataErrorImpl < DataError
 
-  VERSION = "1.2.0"
+  include DataErrorImplHelper
+
+  VERSION = "1.3.0"
 
 end

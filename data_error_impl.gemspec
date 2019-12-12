@@ -10,8 +10,8 @@ Gem::Specification.new do |spec|
 
   spec.summary     = %q{Implements and subclasses the DataError interface.}
   spec.description = %q{Implements and subclasses the `DataError` interface. Defines the acceptable data
-argument types. Contains five methods. Three are `public` instance methods,
-one is a `private` instance method, and one is a helper method.}
+argument types. Contains six methods. Three are `public` instance methods,
+one is a `private` instance method, and two are helper methods.}
   spec.homepage    = "https://github.com/scientist8202/data_error_impl"
   spec.license     = "MIT"
 
@@ -41,7 +41,6 @@ one is a `private` instance method, and one is a helper method.}
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
 
-  spec.add_dependency 'data_error'
-  spec.add_dependency 'argument_type_error_helper'
+  spec.add_dependency 'data_error', `~> 1.0.1`
 
 end

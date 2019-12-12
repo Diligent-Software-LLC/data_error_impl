@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_error_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_error_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_error_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_error_impl.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_error_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_error_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_error_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +29,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
@@ -93,7 +98,8 @@
       <workItem from="1574473017322" duration="2517000" />
       <workItem from="1575221159613" duration="612000" />
       <workItem from="1575234499752" duration="18000" />
-      <workItem from="1576079842094" duration="1754000" />
+      <workItem from="1576079842094" duration="2244000" />
+      <workItem from="1576150522143" duration="5128000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1574351852964</created>
@@ -151,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1575221712325</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Code restructuring.">
+      <created>1576081636520</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576081636520</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Code restructuring.">
+      <created>1576081701186</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576081701186</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,32 +199,37 @@
     <MESSAGE value="All tests pass." />
     <MESSAGE value="Added badges." />
     <MESSAGE value="Fixed architectural problems and updated README." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed architectural problems and updated README." />
+    <MESSAGE value="Code restructuring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code restructuring." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="318" y="112" key="CommitChangelistDialog2" timestamp="1576081636097">
+    <state x="318" y="112" key="CommitChangelistDialog2" timestamp="1576081700926">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="318" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1576081636097" />
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1576081189239">
+    <state x="318" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1576081700926" />
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1576178174090">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1576081189239" />
-    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1576081189238">
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1576178174090" />
+    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1576178174088">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1576081189238" />
-    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1576081189238">
+    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1576178174088" />
+    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1576178174087">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1576081189238" />
-    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1576081189239">
+    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1576178174087" />
+    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1576178174089">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1576081189239" />
+    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1576178174089" />
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1576082059151">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1576082059151" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1576081189226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
+    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1576153072574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
   </component>
 </project>

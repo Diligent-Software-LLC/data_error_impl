@@ -13,4 +13,19 @@ module DataErrorImplHelper
 
   end
 
+  # choose(explanation).
+  # @abstract:
+  # In the case the argument is nil or any type excluding String, returns the
+  # DEFAULT_MESSAGE. Otherwise, returns the argument.
+  # @param explanation: a String explaining the error.
+  def choose(explanation)
+
+    if (explanation.nil?() || !explanation.instance_of?(String))
+      return DataErrorImpl::DEFAULT_MESSAGE
+    else
+      return explanation
+    end
+
+  end
+
 end
