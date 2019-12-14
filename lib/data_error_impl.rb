@@ -6,6 +6,16 @@ class DataErrorImpl < DataError
                            :Bignum, :Fixnum, :NilClass, :Symbol, :Time]
   INTERFACE             = superclass()
 
+  # self.acceptable?(argument_value).
+  # @abstract:
+  # Class method. Verifies an object is an acceptable data type.
+  # @return: true in the case the argument is acceptable data, and false
+  # otherwise.
+  def self.acceptable?(argument_value)
+    conversion = convert_obj_sym(argument_value)
+    return (ACCEPTABLE_CORE_TYPES.include?(conversion))
+  end
+
   # initialize(message_argument = nil).
   # @abstract:
   # The constructor. In the case the argument is nil, sets the message
@@ -28,7 +38,7 @@ class DataErrorImpl < DataError
   # raises.
   # @param data_type: a presumed acceptable data type.
   def raise_exception(data_type)
-    (raise INTERFACE, message()) if (acceptable?(data_type))
+    (raise INTERFACE, message()) unless (DataErrorImpl.acceptable?(data_type))
   end
 
   private

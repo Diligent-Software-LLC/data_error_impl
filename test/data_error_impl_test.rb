@@ -17,6 +17,7 @@ class DataErrorImplTest < Minitest::Test
   def setup()
     @test_message_initialized = DataErrorImpl.new(TEST_MESSAGE)
     @default_initialized      = DataErrorImpl.new()
+    @nil_argument = nil
   end
 
   # test_that_it_has_a_version_number().
@@ -71,6 +72,22 @@ class DataErrorImplTest < Minitest::Test
       @default_initialized.raise_exception(@test_message_initialized)
     }
 
+  end
+
+  # test_nil_argument_is_acceptable().
+  # @abstract:
+  # A nil argument is an acceptable data type.
+  def test_nil_argument_is_acceptable()
+    assert(DataErrorImpl.acceptable?(@nil_argument))
+  end
+
+  # test_object_sym_conversion().
+  # @abstract:
+  # The helper conversion method takes an object instance and returns its
+  # symbolized class name.
+  def test_object_sym_conversion()
+    conversion = convert_obj_sym(@nil_argument)
+    assert_equal(:NilClass, conversion)
   end
 
 end

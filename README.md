@@ -1,7 +1,7 @@
 # DataErrorImpl [![Gem Version](https://badge.fury.io/rb/data_error_impl.svg)](https://badge.fury.io/rb/data_error_impl) ![Gem](https://img.shields.io/gem/dt/data_error_impl)
 
 Implements and subclasses the `DataError` interface. Defines the acceptable data 
-argument types. Contains six methods. Three are `public` instance methods, 
+argument types. Contains seven methods. Four are `public` instance methods, 
 one is a `private` instance method, and two are helper methods.
 
 ## Installation
@@ -9,7 +9,7 @@ one is a `private` instance method, and two are helper methods.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'data_error_impl', `~> 1.3.0`
+gem 'data_error_impl', `~> 1.4.0`
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install data_error_impl -v 1.3.0
+    $ gem install data_error_impl -v 1.4.0
 
 ## Usage
 
@@ -35,6 +35,12 @@ and Time.
 Stores the superclass name.
 
 ### Public methods
+
+#### `self.acceptable?(argument_value)`
+
+Class method. Verifies an object is an acceptable data type. Returns true 
+in the case the argument is acceptable data, and false otherwise. Calls 
+the `convert_obj_sym(argument_object)` helper.
 
 #### `initialize(message_argument = nil)`
 
@@ -59,10 +65,11 @@ Setter method. In the case `explanation` is `nil`, sets the message attribute th
 
 ### Helper methods
 
-#### `acceptable?(argument_object)`
+#### `convert_obj_sym(argument_object)`
 
-In the case the argument is an unacceptable data type or a data structure, returns 
-`false`. Otherwise, returns `true`.
+Takes an object or value and converts its class name. Before calling the 
+method, an argument object or value exists. Following its scope exit, the 
+caller receives the argument's class name, symbolized.
 
 #### `choose(explanation)`
 

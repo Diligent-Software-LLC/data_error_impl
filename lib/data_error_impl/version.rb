@@ -10,7 +10,8 @@ require 'data_error_impl_helper'
 class DataErrorImpl < DataError
 
   include DataErrorImplHelper
+  extend DataErrorImplHelper
 
-  VERSION = "1.3.0"
+  VERSION = "1.4.0"
 
 end
