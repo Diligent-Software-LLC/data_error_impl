@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/data_error_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_error_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_error_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_error_impl.gemspec" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_error_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_error_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_error_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +32,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DataErrorImplTest">
     <configuration name="DataErrorImplTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -129,7 +129,12 @@
       <workItem from="1575234499752" duration="18000" />
       <workItem from="1576079842094" duration="2244000" />
       <workItem from="1576150522143" duration="5334000" />
-      <workItem from="1576260626001" duration="6193000" />
+      <workItem from="1576260626001" duration="6420000" />
+      <workItem from="1576358315604" duration="1378000" />
+      <workItem from="1581874954749" duration="212000" />
+      <workItem from="1581902333273" duration="4445000" />
+      <workItem from="1581965612520" duration="519000" />
+      <workItem from="1582077296713" duration="1249000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1574351852964</created>
@@ -215,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576178684508</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Fixed numerous bugs.">
+      <created>1576283548336</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1576283548336</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,37 +258,42 @@
     <MESSAGE value="Code restructuring." />
     <MESSAGE value="Code restructuring. All tests pass." />
     <MESSAGE value="Fixed syntax bug." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed syntax bug." />
+    <MESSAGE value="Fixed numerous bugs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed numerous bugs." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="318" y="112" key="CommitChangelistDialog2" timestamp="1576178684270">
+    <state x="318" y="112" key="CommitChangelistDialog2" timestamp="1576283548040">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="318" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1576178684270" />
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1576281157543">
+    <state x="318" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1576283548040" />
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1582078687557">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1576281157543" />
-    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1576281157541">
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1582078687557" />
+    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1582078687556">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1576281157541" />
-    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1576281157540">
+    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1582078687556" />
+    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1582078687556">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1576281157540" />
-    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1576281157542">
+    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1582078687556" />
+    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1582078687556">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1576281157542" />
+    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1582078687556" />
+    <state x="241" y="149" key="SettingsEditor" timestamp="1582077310166">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="241" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1582077310166" />
     <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1576178689509">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1576178689509" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1576281083375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
+    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1582078681381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
     <SUITE FILE_PATH="coverage/data_error_impl@test_unacceptable_data_rais___.rcov" NAME="test_unacceptable_data_rais... Coverage Results" MODIFIED="1576281040809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
   </component>
 </project>

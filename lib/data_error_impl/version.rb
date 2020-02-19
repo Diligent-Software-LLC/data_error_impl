@@ -1,7 +1,7 @@
-# Copyright (C) 2019 Diligent Software LLC. All rights reserved. Released
+# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
 # under the MIT License.
-require 'data_error'
-require 'data_error_impl_helper'
+
+require "data_error"
 
 # DataErrorImpl.
 # @abstract:
@@ -9,9 +9,6 @@ require 'data_error_impl_helper'
 # @attribute message: the user's error message, and a String object.
 class DataErrorImpl < DataError
 
-  include DataErrorImplHelper
-  extend DataErrorImplHelper
-
-  VERSION = "1.4.0"
+  VERSION = ::VERSION
 
 end

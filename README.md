@@ -9,7 +9,7 @@ one is a `private` instance method, and two are helper methods.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'data_error_impl', `~> 1.4.0`
+gem "data_error_impl", "~> 1.4.2"
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install data_error_impl -v 1.4.0
+    $ gem install data_error_impl -v 1.4.2
 
 ## Usage
 
@@ -90,7 +90,9 @@ Unit and integration tested.
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at 
-https://github.com/scientist8202/data_error_impl. This project is intended to 
+https://github.com/Diligent-Software-LLC/data_error_impl. This project is
+ intended
+ to 
 be a safe, welcoming space for collaboration, and contributors are expected 
 to adhere to the 
 [Contributor Covenant](http://contributor-covenant.org) code of conduct.
@@ -104,4 +106,4 @@ The gem is available as open source under the terms of the
 
 Everyone interacting in the DataErrorImpl project’s codebases, issue trackers, 
 chat rooms and mailing lists is expected to follow the 
-[code of conduct](https://github.com/scientist8202/data_error_impl/blob/master/CODE_OF_CONDUCT.md).
+[code of conduct](https://github.com/Diligent-Software-LLC/data_error_impl/blob/master/CODE_OF_CONDUCT.md).

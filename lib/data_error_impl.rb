@@ -1,10 +1,17 @@
+# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
+# under the MIT License.
+
 require "data_error_impl/version"
+require_relative "data_error_impl_helper"
 
 class DataErrorImpl < DataError
 
   ACCEPTABLE_CORE_TYPES = [:Complex, :Float, :Integer, :Rational, :String,
                            :Bignum, :Fixnum, :NilClass, :Symbol, :Time]
-  INTERFACE             = superclass()
+  INTERFACE             = superclass().to_s()
+
+  include DataErrorImplHelper
+  extend DataErrorImplHelper
 
   # self.acceptable?(argument_value).
   # @abstract:
