@@ -1,22 +1,23 @@
-lib = File.expand_path("../lib", __FILE__)
+lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-VERSION = '1.4.2'
+VERSION = '1.4.3'.freeze()
 
 Gem::Specification.new do |spec|
 
-  spec.name        = "data_error_impl"
-  spec.version     = VERSION
-  spec.authors     = ["Bradley J. Tannor", "Diligent Software LLC"]
-  spec.email       = ["bradleytannor@gmail.com"]
-  spec.summary     = %q{Implements and subclasses the DataError interface and
+  spec.name                  = 'data_error_impl'
+  spec.version               = VERSION
+  spec.authors               = ['Bradley J. Tannor', 'Diligent Software LLC']
+  spec.email                 = ['bradleytannor@gmail.com']
+  spec.summary               = %q{Implements and subclasses the DataError interface and
  Abstract Base class.}
-  spec.description = %q{Implements and subclasses the DataError interface
+  spec.description           = %q{Implements and subclasses the DataError interface
 and Abstract Base class. Defines the acceptable data
 argument types. Contains seven methods. Four are public instance methods,
 one is a private instance method, and two are helper methods.}
-  spec.homepage    = "https://github.com/Diligent-Software-LLC/data_error_impl"
-  spec.license     = "MIT"
+  spec.homepage              = 'https://github.com/Diligent-Software-LLC/data_error_impl'
+  spec.license               = 'MIT'
+  spec.required_ruby_version = '~> 2.6.5'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
@@ -36,15 +37,15 @@ one is a private instance method, and two are helper methods.}
   spec.files         = Dir.chdir(File.expand_path('..', __FILE__)) do
     `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   end
-  spec.bindir        = "exe"
+  spec.bindir        = 'exe'
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
-  spec.require_paths = ["lib"]
+  spec.require_paths = ['lib']
 
-  spec.add_development_dependency "bundler", "~> 2.1.2"
-  spec.add_development_dependency "simplecov", "~> 0.17.1"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_development_dependency 'bundler', '~> 2.1.2'
+  spec.add_development_dependency 'simplecov', '~> 0.17.1'
+  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'minitest', '~> 5.0'
 
-  spec.add_dependency "data_error", "~> 1.1.2"
+  spec.add_dependency 'data_error', '~> 1.1.2'
 
 end

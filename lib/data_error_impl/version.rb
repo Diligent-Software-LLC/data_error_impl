@@ -1,7 +1,7 @@
 # Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
 # under the MIT License.
 
-require "data_error"
+require 'data_error'
 
 # DataErrorImpl.
 # @abstract:
