@@ -1,14 +1,15 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-VERSION = '1.4.3'.freeze()
+VERSION = '1.4.4'.freeze()
 
 Gem::Specification.new do |spec|
 
   spec.name                  = 'data_error_impl'
   spec.version               = VERSION
   spec.authors               = ['Bradley J. Tannor', 'Diligent Software LLC']
-  spec.email                 = ['bradleytannor@gmail.com']
+  spec.email                 = ['bradleytannor@gmail.com',
+                                'diligentsoftwarellc@gmail.com']
   spec.summary               = %q{Implements and subclasses the DataError interface and
  Abstract Base class.}
   spec.description           = %q{Implements and subclasses the DataError interface
@@ -41,11 +42,13 @@ one is a private instance method, and two are helper methods.}
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
+  # Development and testing dependencies
   spec.add_development_dependency 'bundler', '~> 2.1.2'
   spec.add_development_dependency 'simplecov', '~> 0.17.1'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'minitest', '~> 5.0'
 
+  # Gem specific runtime dependencies
   spec.add_dependency 'data_error', '~> 1.1.2'
 
 end

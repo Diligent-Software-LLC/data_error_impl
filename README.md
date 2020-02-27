@@ -102,5 +102,6 @@ expected to adhere to the [Contributor Covenant](http://contributor-covenant.org
 
 ## License
 
+Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released under the MIT License.
 The gem is available as open source under the terms of the 
 [MIT License](https://opensource.org/licenses/MIT).
