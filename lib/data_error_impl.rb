@@ -6,10 +6,6 @@ require_relative 'data_error_impl_helper'
 
 class DataErrorImpl < DataError
 
-  DEFAULT_MESSAGE = "The argument was neither a Complex, Float, Integer,
-Rational, String, Bignum, Fixnum, NilClass, Symbol, or Time object."
-  INTERFACE       = superclass().to_s()
-
   include DataErrorImplHelper
   extend DataErrorImplHelper
 
@@ -25,13 +21,13 @@ Rational, String, Bignum, Fixnum, NilClass, Symbol, or Time object."
     return (ACCEPTABLE_CORE_TYPES.include?(conversion))
   end
 
-  # initialize(message = nil).
+  # initialize(message = DEFAULT_MESSAGE).
   # @abstract:
   # The constructor. In the case the argument is nil, or no argument was
-  # provided, the message attribute is nil.
+  # provided, the message attribute is the default message.
   # @param [String] message
   # A raised error explanation.
-  def initialize(message = nil)
+  def initialize(message = DEFAULT_MESSAGE)
     self.message = message
   end
 

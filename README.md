@@ -37,7 +37,22 @@ extensions to the MAJOR.MINOR.PATCH format."
 
 ### Constants
 
-- `INTERFACE`: DataError.
+- `INTERFACE`
+
+Inherited DataError constant. Defines the interface name. The interface name
+ is the DataError constant.
+
+* ACCEPTABLE_CORE_TYPES
+
+Inherited DataError constant. An array containing stringified types. The
+ acceptable types are Numeric, FalseClass, TrueClass, Symbol, String, and
+ Time.
+
+* DEFAULT_MESSAGE
+
+Inherited DataError constant. Defines an instance's default error
+ message. The STDERR string is "The argument was neither a Numeric, FalseClass
+ , TrueClass, Symbol, String, or Time object."
 
 ### Public methods
 
@@ -49,10 +64,10 @@ The four public signatures are `self.acceptable?(unkonwn_argument
 Class method. Verifies an object is an acceptable data type. Returns true in 
 the case the argument is acceptable data, and false otherwise.
 
-#### `initialize(message = nil)`
+#### `initialize(message = DEFAULT_MESSAGE)`
 
 The constructor. Takes a String argument, message, explaining the default
- message raised in STDERR.
+ message raised in STDERR. The default is the default message.
 
 #### `message()`
 
