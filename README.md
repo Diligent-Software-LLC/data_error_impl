@@ -7,7 +7,7 @@ Implements and subclasses the `DataError` interface.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "data_error_impl", "~> 1.4.3"
+gem "data_error_impl", "~> 1.4.4"
 ```
 
 And then execute:
@@ -31,9 +31,27 @@ extensions to the MAJOR.MINOR.PATCH format."
 
 ## Usage
 
+```ruby
+ # Verifying type acceptability.
+ # Let "unknown_object" be an unknown typed object.
+
+   DataErrorImpl.acceptable?(unknown_object) # => yields true or false 
+
+ # Raising data type errors.
+ # Let "unknown_object" be an unknown typed object.
+  
+  error_instance = DataErrorImpl.new() # => yields DataErrorImpl instance
+  error_instance.raise_exception(unknown_object) 
+ 
+ # => in the case the object type is neither Numeric, FalseClass, TrueClass
+ #, Symbol, String, or Time, raises a DataError.
+```
+
 ### Attributes
 
-- [String] message: the default message explaining a raised exception.
+- [String] `message`
+
+A message explaining its instance's raised exception.
 
 ### Constants
 
@@ -42,13 +60,13 @@ extensions to the MAJOR.MINOR.PATCH format."
 Inherited DataError constant. Defines the interface name. The interface name
  is the DataError constant.
 
-* ACCEPTABLE_CORE_TYPES
+* `ACCEPTABLE_CORE_TYPES`
 
 Inherited DataError constant. An array containing stringified types. The
  acceptable types are Numeric, FalseClass, TrueClass, Symbol, String, and
  Time.
 
-* DEFAULT_MESSAGE
+* `DEFAULT_MESSAGE`
 
 Inherited DataError constant. Defines an instance's default error
  message. The STDERR string is "The argument was neither a Numeric, FalseClass
@@ -57,7 +75,8 @@ Inherited DataError constant. Defines an instance's default error
 ### Public methods
 
 The four public signatures are `self.acceptable?(unkonwn_argument
-)`, `initialize(message = nil)`, `message()`, and `raise_exception(argued_object)`.
+)`, `initialize(message = DEFAULT_MESSAGE)`, `message()`, and `raise_exception
+(argued_object)`.
 
 #### `self.acceptable?(unknown_argument)`
 
@@ -105,9 +124,12 @@ remaining dependencies. Modify the "spec.authors" line in the gem
 Pull requests are welcome on GitHub at 
 https://github.com/Diligent-Software-LLC/data_error_impl. This project is
  intended to be a safe, welcoming space for collaboration, and contributors are
-expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+expected to adhere to the 
+[Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ### Code Format
+
+Use the [Ruby Style Guide](https://rubystyle.guide).
 
 ### Code of Conduct
 
@@ -117,6 +139,6 @@ expected to adhere to the [Contributor Covenant](http://contributor-covenant.org
 
 ## License
 
-Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released under the MIT License.
-The gem is available as open source under the terms of the 
+Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released under
+ the MIT License. The gem is available as open source under the terms of the 
 [MIT License](https://opensource.org/licenses/MIT).

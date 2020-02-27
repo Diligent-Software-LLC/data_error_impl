@@ -7,7 +7,6 @@
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582469173598</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated Implementation.&#10;&#10;Adjusted the data types, the default message, and the constants.&#10;&#10;#4ydqdb[complete], #4ydqdc[complete], #4ydqdd[complete], #4ydqdh[complete]">
+      <created>1582822705401</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582822705401</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +300,8 @@
     <MESSAGE value="Fixed numerous bugs." />
     <MESSAGE value="v1.4.2&#10;&#10;Updated README, Travis CI configuration, gemspec, and dependencies. All local tests pass." />
     <MESSAGE value="Minor Updates.&#10;&#10;Organized build artifacts, redocumented methods and rewrote the README. Reformatted all files. All local tests pass and code coverage is 100%." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor Updates.&#10;&#10;Organized build artifacts, redocumented methods and rewrote the README. Reformatted all files. All local tests pass and code coverage is 100%." />
+    <MESSAGE value="Updated Implementation.&#10;&#10;Adjusted the data types, the default message, and the constants.&#10;&#10;#4ydqdb[complete], #4ydqdc[complete], #4ydqdd[complete], #4ydqdh[complete]" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Implementation.&#10;&#10;Adjusted the data types, the default message, and the constants.&#10;&#10;#4ydqdb[complete], #4ydqdc[complete], #4ydqdd[complete], #4ydqdh[complete]" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -306,10 +313,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1582463270049" />
-    <state x="318" y="112" key="CommitChangelistDialog2" timestamp="1582469173146">
+    <state x="278" y="112" key="CommitChangelistDialog2" timestamp="1582822704952">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="318" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1582469173146" />
+    <state x="278" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1582822704952" />
     <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1582470186579">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -338,10 +345,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1582470255505" />
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1582821152812">
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1582823040927">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1582821152812" />
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1582823040927" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1582468758745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
