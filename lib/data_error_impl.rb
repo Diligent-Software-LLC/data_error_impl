@@ -4,6 +4,9 @@
 require 'data_error_impl/version'
 require_relative 'data_error_impl_helper'
 
+# DataErrorImpl.
+# @abstract
+# Implements the DataError interface.
 class DataErrorImpl < DataError
 
   include DataErrorImplHelper
@@ -17,8 +20,10 @@ class DataErrorImpl < DataError
   # @return: true in the case the argument is an acceptable data type
   # instance, and false otherwise.
   def self.acceptable?(unknown_argument)
-    conversion = convert_obj_sym(unknown_argument)
-    return (ACCEPTABLE_CORE_TYPES.include?(conversion))
+    conversion             = stringify_obj_type(unknown_argument)
+    numeric_object_boolean = unknown_argument.is_a?(Numeric)
+    return (ACCEPTABLE_CORE_TYPES.include?(conversion) ||
+        numeric_object_boolean)
   end
 
   # initialize(message = DEFAULT_MESSAGE).
@@ -42,7 +47,7 @@ class DataErrorImpl < DataError
   # @abstract:
   # In the case the argument was an unacceptable type, raises a DataError.
   # @param [Object] argued_object
-  # A type unkonwn object.
+  # A type unknonwn object.
   def raise_exception(argued_object)
     (raise INTERFACE, message()) unless (DataErrorImpl.acceptable?(argued_object))
   end

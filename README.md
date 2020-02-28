@@ -99,10 +99,10 @@ In the case the object is an unacceptable data type instance, raises. Takes
 
 ### Helper methods
 
-#### `convert_obj_sym(argument_object)`
+#### `stringify_obj_type(argument_object)`
 
-Symbolizes an argument object's type. Takes an Object instance and returns
- its symbolized type.
+Stringifies an argument object's type. Takes an Object instance and returns
+ its stringified type.
 
 #### `choose(explanation)`
 

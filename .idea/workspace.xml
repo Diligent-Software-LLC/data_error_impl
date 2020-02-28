@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
     <option name="SHOW_STRUCTURE" value="true" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_error_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_error_impl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_error_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_error_impl.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_error_impl_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/data_error_impl_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,12 +51,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DataErrorImplTest">
     <configuration name="DataErrorImplTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
@@ -72,6 +86,64 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_nil_argument_is_accept..." type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_error_impl" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_error_impl_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_nil_argument_is_acceptable" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_object_sym_conversion" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_error_impl" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_error_impl_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_object_sym_conversion" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
@@ -109,10 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.DataErrorImplTest" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_object_sym_conversion" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_nil_argument_is_accept..." />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_unacceptable_data_rais..." />
         <item itemvalue="Test::Unit/Shoulda/Minitest.DataErrorImplTest" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.DataErrorImplTest" />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_unacceptable_data_rais..." />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582822705401</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Updated README.md.&#10;&#10;Explained the usage.">
+      <created>1582825112125</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1582825112125</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,57 +381,104 @@
     <MESSAGE value="v1.4.2&#10;&#10;Updated README, Travis CI configuration, gemspec, and dependencies. All local tests pass." />
     <MESSAGE value="Minor Updates.&#10;&#10;Organized build artifacts, redocumented methods and rewrote the README. Reformatted all files. All local tests pass and code coverage is 100%." />
     <MESSAGE value="Updated Implementation.&#10;&#10;Adjusted the data types, the default message, and the constants.&#10;&#10;#4ydqdb[complete], #4ydqdc[complete], #4ydqdd[complete], #4ydqdh[complete]" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Implementation.&#10;&#10;Adjusted the data types, the default message, and the constants.&#10;&#10;#4ydqdb[complete], #4ydqdc[complete], #4ydqdd[complete], #4ydqdh[complete]" />
+    <MESSAGE value="Updated README.md.&#10;&#10;Explained the usage." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md.&#10;&#10;Explained the usage." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="439" y="175" key="#Notifications" timestamp="1582923554673">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="439" y="175" key="#Notifications/0.23.1680.975@0.23.1680.975" timestamp="1582923554673" />
     <state x="571" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582464264138">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="571" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.975@0.23.1680.975" timestamp="1582464264138" />
-    <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582463270049">
+    <state x="416" y="183" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1582923636326">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1582463270049" />
-    <state x="278" y="112" key="CommitChangelistDialog2" timestamp="1582822704952">
+    <state x="416" y="183" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1680.975@0.23.1680.975" timestamp="1582923636326" />
+    <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582923892443">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="278" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1582822704952" />
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1582470186579">
+    <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1582923892443" />
+    <state x="278" y="112" key="CommitChangelistDialog2" timestamp="1582825111746">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1582470186579" />
-    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1582470186578">
+    <state x="278" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1582825111746" />
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom" timestamp="1582925294196">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1582470186578" />
-    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1582470186578">
+    <state width="1413" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1582925294196" />
+    <state width="1413" height="235" key="GridCell.Tab.0.center" timestamp="1582925294195">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1582470186578" />
-    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1582470186579">
+    <state width="1413" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1582925294195" />
+    <state width="1413" height="235" key="GridCell.Tab.0.left" timestamp="1582925294195">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1582470186579" />
-    <state x="241" y="149" key="SettingsEditor" timestamp="1582077310166">
+    <state width="1413" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1582925294195" />
+    <state width="1413" height="235" key="GridCell.Tab.0.right" timestamp="1582925294196">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="241" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1582077310166" />
+    <state width="1413" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1582925294196" />
+    <state width="1413" height="335" key="GridCell.Tab.1.bottom" timestamp="1582847685429">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.1.bottom/0.23.1680.975@0.23.1680.975" timestamp="1582847685429" />
+    <state width="1413" height="335" key="GridCell.Tab.1.center" timestamp="1582847685428">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.1.center/0.23.1680.975@0.23.1680.975" timestamp="1582847685428" />
+    <state width="1413" height="335" key="GridCell.Tab.1.left" timestamp="1582847685427">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.1.left/0.23.1680.975@0.23.1680.975" timestamp="1582847685427" />
+    <state width="1413" height="335" key="GridCell.Tab.1.right" timestamp="1582847685428">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.1.right/0.23.1680.975@0.23.1680.975" timestamp="1582847685428" />
+    <state width="1413" height="335" key="GridCell.Tab.2.bottom" timestamp="1582847685430">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.2.bottom/0.23.1680.975@0.23.1680.975" timestamp="1582847685430" />
+    <state width="1413" height="335" key="GridCell.Tab.2.center" timestamp="1582847685429">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.2.center/0.23.1680.975@0.23.1680.975" timestamp="1582847685429" />
+    <state width="1413" height="335" key="GridCell.Tab.2.left" timestamp="1582847685429">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.2.left/0.23.1680.975@0.23.1680.975" timestamp="1582847685429" />
+    <state width="1413" height="335" key="GridCell.Tab.2.right" timestamp="1582847685430">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state width="1413" height="335" key="GridCell.Tab.2.right/0.23.1680.975@0.23.1680.975" timestamp="1582847685430" />
+    <state x="241" y="149" key="SettingsEditor" timestamp="1582925093467">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="241" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1582925093467" />
     <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1582816383077">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1582816383077" />
-    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582470255505">
+    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582899346211">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1582470255505" />
+    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1582899346211" />
+    <state x="498" y="272" width="667" height="476" key="find.popup" timestamp="1582899154460">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="498" y="272" width="667" height="476" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1582899154460" />
     <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1582823040927">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1582823040927" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1582468758745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
+    <SUITE FILE_PATH="coverage/data_error_impl@test_nil_argument_is_accept___.rcov" NAME="test_nil_argument_is_accept... Coverage Results" MODIFIED="1582847976664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
+    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1582925285600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
+    <SUITE FILE_PATH="coverage/data_error_impl@test_object_sym_conversion.rcov" NAME="test_object_sym_conversion Coverage Results" MODIFIED="1582848034153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
     <SUITE FILE_PATH="coverage/data_error_impl@test_unacceptable_data_rais___.rcov" NAME="test_unacceptable_data_rais... Coverage Results" MODIFIED="1576281040809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
   </component>
 </project>

@@ -1,0 +1,14 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="LongLine" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="MissingYardParamTag" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="MissingYardReturnTag" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+    <inspection_tool class="RubyDefParenthesesInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyInterpreter" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="RubyParenthesesAfterMethodCallInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyParenthesesAroundConditionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyUnnecessaryReturnStatement" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RubyUnnecessaryReturnValue" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

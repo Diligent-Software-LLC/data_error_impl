@@ -10,15 +10,13 @@ Gem::Specification.new do |spec|
   spec.authors               = ['Bradley J. Tannor', 'Diligent Software LLC']
   spec.email                 = ['bradleytannor@gmail.com',
                                 'diligentsoftwarellc@gmail.com']
-  spec.summary               = %q{Implements and subclasses the DataError interface and
+  spec.summary               = %q{Implements the DataError interface and
  Abstract Base class.}
-  spec.description           = %q{Implements and subclasses the DataError interface
-and Abstract Base class. Defines the acceptable data
-argument types. Contains seven methods. Four are public instance methods,
-one is a private instance method, and two are helper methods.}
+  spec.description           = %q{Implements the DataError interface
+and Abstract Base class. Defines the acceptable data types.}
   spec.homepage              = 'https://github.com/Diligent-Software-LLC/data_error_impl'
   spec.license               = 'MIT'
-  spec.required_ruby_version = '~> 2.6.5'
+  spec.required_ruby_version = '>= 2.6.5'
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.

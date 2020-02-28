@@ -6,18 +6,18 @@
 # Contains helper methods.
 module DataErrorImplHelper
 
-  # convert_obj_sym(argument_object).
+  # stringify_obj_type(argument_object).
   # @abstract:
-  # Takes an object or value and symbolizes the object's type.
+  # Takes an object or value and stringifies the object's type.
   # @pre: an object or value exists.
-  # @post: the argument's class name returns, symbolized.
+  # @post: the argument's class name returns, stringified.
   # @param [Object] argument_object
   # An unknown object.
-  def convert_obj_sym(argument_object)
+  def stringify_obj_type(argument_object)
 
-    object_class     = argument_object.class()
-    symbolized_class = object_class.to_s().to_sym()
-    return (symbolized_class)
+    object_class      = argument_object.class()
+    stringified_class = object_class.to_s()
+    return (stringified_class)
 
   end
 
