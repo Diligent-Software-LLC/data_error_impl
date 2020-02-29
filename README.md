@@ -27,7 +27,7 @@ The gem abides the [Semantic Versioning](https://www.semver.org) system:
 Additional labels for pre-release and build metadata are available as
 extensions to the MAJOR.MINOR.PATCH format."
 
-**All versions <= 2.0.0 are unstable or incomplete.**
+**All versions <= 1.4.3 are unstable or incomplete.**
 
 ## Usage
 
@@ -63,14 +63,14 @@ Inherited DataError constant. Defines the interface name. The interface name
 * `ACCEPTABLE_CORE_TYPES`
 
 Inherited DataError constant. An array containing stringified types. The
- acceptable types are Numeric, FalseClass, TrueClass, Symbol, String, and
- Time.
+ acceptable types are Numeric, FalseClass, TrueClass, Symbol, String, 
+ Time, and NilClass.
 
 * `DEFAULT_MESSAGE`
 
 Inherited DataError constant. Defines an instance's default error
- message. The STDERR string is "The argument was neither a Numeric, FalseClass
- , TrueClass, Symbol, String, or Time object."
+ message. The STDERR string is "The argument was neither a Numeric, FalseClass, 
+ TrueClass, Symbol, String, Time, or NilClass object."
 
 ### Public methods
 
@@ -107,8 +107,7 @@ Stringifies an argument object's type. Takes an Object instance and returns
 #### `choose(explanation)`
 
 A strategy method. In the case the explanation is not a String, the default
- message is "The argument was neither a Complex, Float, Integer, Rational
- , String, Bignum, Fixnum, NilClass, Symbol, or Time object.".
+ message is `DEFAULT_MESSAGE`.
 
 ## Development
 
@@ -130,12 +129,6 @@ expected to adhere to the
 ### Code Format
 
 Use the [Ruby Style Guide](https://rubystyle.guide).
-
-### Code of Conduct
-
-### Bug reports
-
-### Pull requests
 
 ## License
 
