@@ -8,7 +8,5 @@ require 'data_error'
 # Implements and subclasses the DataError interface.
 # @attribute message: the user's error message, and a String object.
 class DataErrorImpl < DataError
-
-  VERSION = ::VERSION
-
+  VERSION = '1.4.5'.freeze()
 end

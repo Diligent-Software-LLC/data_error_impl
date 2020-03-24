@@ -1,12 +1,12 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-VERSION = '1.4.4'.freeze()
+require_relative 'lib/data_error_impl/version'
 
 Gem::Specification.new do |spec|
 
   spec.name                  = 'data_error_impl'
-  spec.version               = VERSION
+  spec.version = DataErrorImpl::VERSION
   spec.authors               = ['Bradley J. Tannor', 'Diligent Software LLC']
   spec.email                 = ['bradleytannor@gmail.com',
                                 'diligentsoftwarellc@gmail.com']
