@@ -21,3 +21,13 @@ homepage, and dependencies updated.
 - require statements.
 - Class names.
 - File names.
+
+## v2.0.1, 2020-03-26
+
+### Added
+
+### Edited
+
+### Fixed
+
+- Loading problem. File and directory name changes interfered in loading.

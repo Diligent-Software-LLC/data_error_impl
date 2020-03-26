@@ -31,16 +31,13 @@
   <component name="ChangeListManager">
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_error_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_error_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_error_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_error_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_error_impl/version.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_error_impl_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error/version.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +74,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.youtrack.notifications" value="" />
@@ -94,7 +92,7 @@
       <recent name="$PROJECT_DIR$/artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DataErrorImplTest">
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.DataErrorTest">
     <configuration name="DataErrorImplTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="data_error_impl" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -115,6 +113,35 @@
       </EXTENSION>
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_error_impl_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DataErrorTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="data_error_impl" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/data_error_test.rb" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
@@ -213,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.DataErrorTest" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.DataErrorImplTest" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_object_sym_conversion" />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_nil_argument_is_accept..." />
         <item itemvalue="Test::Unit/Shoulda/Minitest.test_unacceptable_data_rais..." />
-        <item itemvalue="Test::Unit/Shoulda/Minitest.DataErrorImplTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +288,8 @@
       <workItem from="1582925830125" duration="355000" />
       <workItem from="1583106996056" duration="133000" />
       <workItem from="1585070506162" duration="716000" />
-      <workItem from="1585222434393" duration="7483000" />
+      <workItem from="1585222434393" duration="9514000" />
+      <workItem from="1585253526293" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1574351852964</created>
@@ -389,7 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585071013601</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Major Version 2.0.0&#10;&#10;Removed code, numerous editions, and numerous fixes.">
+      <created>1585239506514</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585239506514</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Major Version 2.0.0&#10;&#10;Removed code, numerous editions, and numerous fixes.">
+      <created>1585239525569</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1585239525569</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: LinkedList Component: DataError #{Prepare Deploy}" />
@@ -431,7 +473,8 @@
     <MESSAGE value="Updated Implementation.&#10;&#10;Adjusted the data types, the default message, and the constants.&#10;&#10;#4ydqdb[complete], #4ydqdc[complete], #4ydqdd[complete], #4ydqdh[complete]" />
     <MESSAGE value="Updated README.md.&#10;&#10;Explained the usage." />
     <MESSAGE value="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package was impossible." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package was impossible." />
+    <MESSAGE value="Major Version 2.0.0&#10;&#10;Removed code, numerous editions, and numerous fixes." />
+    <option name="LAST_COMMIT_MESSAGE" value="Major Version 2.0.0&#10;&#10;Removed code, numerous editions, and numerous fixes." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -455,26 +498,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1582923892443" />
-    <state x="278" y="112" key="CommitChangelistDialog2" timestamp="1585239506129">
+    <state x="278" y="112" key="CommitChangelistDialog2" timestamp="1585239525384">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="278" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585239506129" />
-    <state width="1537" height="235" key="GridCell.Tab.0.bottom" timestamp="1585237316556">
+    <state x="278" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585239525384" />
+    <state width="1537" height="235" key="GridCell.Tab.0.bottom" timestamp="1585253757274">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585237316556" />
-    <state width="1537" height="235" key="GridCell.Tab.0.center" timestamp="1585237316556">
+    <state width="1537" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585253757274" />
+    <state width="1537" height="235" key="GridCell.Tab.0.center" timestamp="1585253757273">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585237316556" />
-    <state width="1537" height="235" key="GridCell.Tab.0.left" timestamp="1585237316555">
+    <state width="1537" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585253757273" />
+    <state width="1537" height="235" key="GridCell.Tab.0.left" timestamp="1585253757273">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585237316555" />
-    <state width="1537" height="235" key="GridCell.Tab.0.right" timestamp="1585237316556">
+    <state width="1537" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585253757273" />
+    <state width="1537" height="235" key="GridCell.Tab.0.right" timestamp="1585253757274">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585237316556" />
+    <state width="1537" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585253757274" />
     <state width="1413" height="335" key="GridCell.Tab.1.bottom" timestamp="1582847685429">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -511,14 +554,14 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="241" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1582925093467" />
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585071155773">
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585248803129">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585071155773" />
-    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582899346211">
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585248803129" />
+    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585253537235">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1582899346211" />
+    <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1585253537235" />
     <state x="498" y="272" width="816" height="550" key="find.popup" timestamp="1585239105822">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -532,6 +575,7 @@
     <SUITE FILE_PATH="coverage/data_error_impl@test_nil_argument_is_accept___.rcov" NAME="test_nil_argument_is_accept... Coverage Results" MODIFIED="1582847976664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
     <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1585236191345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
     <SUITE FILE_PATH="coverage/data_error_impl@test_object_sym_conversion.rcov" NAME="test_object_sym_conversion Coverage Results" MODIFIED="1582848034153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
+    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorTest.rcov" NAME="DataErrorTest Coverage Results" MODIFIED="1585253750775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
     <SUITE FILE_PATH="coverage/data_error_impl@test_unacceptable_data_rais___.rcov" NAME="test_unacceptable_data_rais... Coverage Results" MODIFIED="1576281040809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
   </component>
 </project>
