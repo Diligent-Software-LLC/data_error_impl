@@ -31,11 +31,17 @@
   <component name="ChangeListManager">
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_error_impl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_error_impl.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data_error_impl.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/data_error_impl.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_error_impl/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error_impl/version.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data_error_impl_helper.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/data_error_impl_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +49,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="280" />
+    <option name="myElementSize" value="339" />
   </component>
   <component name="ExportToHTMLSettings">
+    <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/coverage" />
   </component>
   <component name="Git.Settings">
@@ -72,6 +79,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.youtrack.notifications" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.path.for.package.stylelint" value="project" />
@@ -252,7 +260,8 @@
       <workItem from="1582813226294" duration="1522000" />
       <workItem from="1582925830125" duration="355000" />
       <workItem from="1583106996056" duration="133000" />
-      <workItem from="1585070506162" duration="478000" />
+      <workItem from="1585070506162" duration="716000" />
+      <workItem from="1585222434393" duration="7483000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1574351852964</created>
@@ -373,8 +382,20 @@
       <option name="project" value="LOCAL" />
       <updated>1582825112125</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
-    <servers />
+    <task id="LOCAL-00018" summary="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package was impossible.">
+      <created>1585071013601</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585071013601</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
+    <servers>
+      <YouTrack url="https://macbook-pro.local:8443">
+        <option name="defaultSearch" value="project: LinkedList Component: DataError #{Prepare Deploy}" />
+        <username>admin</username>
+      </YouTrack>
+    </servers>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -409,7 +430,8 @@
     <MESSAGE value="Minor Updates.&#10;&#10;Organized build artifacts, redocumented methods and rewrote the README. Reformatted all files. All local tests pass and code coverage is 100%." />
     <MESSAGE value="Updated Implementation.&#10;&#10;Adjusted the data types, the default message, and the constants.&#10;&#10;#4ydqdb[complete], #4ydqdc[complete], #4ydqdd[complete], #4ydqdh[complete]" />
     <MESSAGE value="Updated README.md.&#10;&#10;Explained the usage." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated README.md.&#10;&#10;Explained the usage." />
+    <MESSAGE value="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package was impossible." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Load Bug&#10;&#10;Version was defined in the gem specification file. Accessing the version outside the package was impossible." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -417,6 +439,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="439" y="175" key="#Notifications/0.23.1680.975@0.23.1680.975" timestamp="1582923554673" />
+    <state x="446" y="175" key="#Servers" timestamp="1585222903431">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="446" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1585222903431" />
     <state x="571" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582464264138">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -429,26 +455,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1582923892443" />
-    <state x="278" y="112" key="CommitChangelistDialog2" timestamp="1582825111746">
+    <state x="278" y="112" key="CommitChangelistDialog2" timestamp="1585071013373">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="278" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1582825111746" />
-    <state width="1537" height="235" key="GridCell.Tab.0.bottom" timestamp="1585070974587">
+    <state x="278" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1585071013373" />
+    <state width="1537" height="235" key="GridCell.Tab.0.bottom" timestamp="1585237316556">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585070974587" />
-    <state width="1537" height="235" key="GridCell.Tab.0.center" timestamp="1585070974586">
+    <state width="1537" height="235" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1585237316556" />
+    <state width="1537" height="235" key="GridCell.Tab.0.center" timestamp="1585237316556">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585070974586" />
-    <state width="1537" height="235" key="GridCell.Tab.0.left" timestamp="1585070974586">
+    <state width="1537" height="235" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1585237316556" />
+    <state width="1537" height="235" key="GridCell.Tab.0.left" timestamp="1585237316555">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585070974586" />
-    <state width="1537" height="235" key="GridCell.Tab.0.right" timestamp="1585070974587">
+    <state width="1537" height="235" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1585237316555" />
+    <state width="1537" height="235" key="GridCell.Tab.0.right" timestamp="1585237316556">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1537" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585070974587" />
+    <state width="1537" height="235" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1585237316556" />
     <state width="1413" height="335" key="GridCell.Tab.1.bottom" timestamp="1582847685429">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -485,26 +511,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="241" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1582925093467" />
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1582926174280">
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585071155773">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1582926174280" />
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585071155773" />
     <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582899346211">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.975@0.23.1680.975" timestamp="1582899346211" />
-    <state x="498" y="272" width="667" height="476" key="find.popup" timestamp="1582899154460">
+    <state x="498" y="272" width="816" height="550" key="find.popup" timestamp="1585239105822">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="498" y="272" width="667" height="476" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1582899154460" />
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1582823040927">
+    <state x="498" y="272" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1585239105822" />
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1585237024718">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1582823040927" />
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1585237024718" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_error_impl@test_nil_argument_is_accept___.rcov" NAME="test_nil_argument_is_accept... Coverage Results" MODIFIED="1582847976664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
-    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1585070971133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
+    <SUITE FILE_PATH="coverage/data_error_impl@DataErrorImplTest.rcov" NAME="DataErrorImplTest Coverage Results" MODIFIED="1585236191345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
     <SUITE FILE_PATH="coverage/data_error_impl@test_object_sym_conversion.rcov" NAME="test_object_sym_conversion Coverage Results" MODIFIED="1582848034153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
     <SUITE FILE_PATH="coverage/data_error_impl@test_unacceptable_data_rais___.rcov" NAME="test_unacceptable_data_rais... Coverage Results" MODIFIED="1576281040809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />
   </component>
