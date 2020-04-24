@@ -27,13 +27,18 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
     <option name="FILTER_BY_CURRENT_PROJECT" value="true" />
     <option name="showStatusBarWidget" value="true" />
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/data_error_impl.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data_error_impl.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/data_error_test.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="339" />
+    <option name="myElementSize" value="349" />
   </component>
   <component name="ExportToHTMLSettings">
     <option name="OPEN_IN_BROWSER" value="true" />
@@ -292,7 +297,7 @@
       <workItem from="1585070506162" duration="716000" />
       <workItem from="1585222434393" duration="9514000" />
       <workItem from="1585253526293" duration="1388000" />
-      <workItem from="1587759570105" duration="2043000" />
+      <workItem from="1587759570105" duration="2722000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1574351852964</created>
@@ -455,10 +460,17 @@
       <option name="project" value="LOCAL" />
       <updated>1587760144652</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Development Complete&#10;&#10;Updated data_error_impl.rb's copyright statement. Fixed data_error_impl.rb's YARDocumentation. Renamed data_error_test.rb data_error_impl_test.rb. Added a .yardopts file.">
+      <created>1587764318503</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1587764318503</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Data Subsystem: Error Component: Implementation Sprints: 4 State: Development" />
+        <option name="defaultSearch" value="project: Data Subsystem: Error Component: Implementation Sprints: 4 State:{ Prepare Deployment} " />
         <username>admin</username>
       </YouTrack>
     </servers>
@@ -500,7 +512,8 @@
     <MESSAGE value="Major Version 2.0.0&#10;&#10;Removed code, numerous editions, and numerous fixes." />
     <MESSAGE value="Load Bug Fixed&#10;&#10;Renamed implementation files, appending _impl." />
     <MESSAGE value="Setup Complete&#10;&#10;Fixed version.rb YARDocumentation. Updated version.rb's copyright statement. Formatted the Gem Specification. Fixed the Gem Specification's homepage_uri, license, changelog_uri, and description. Updated the dependencies." />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Complete&#10;&#10;Fixed version.rb YARDocumentation. Updated version.rb's copyright statement. Formatted the Gem Specification. Fixed the Gem Specification's homepage_uri, license, changelog_uri, and description. Updated the dependencies." />
+    <MESSAGE value="Development Complete&#10;&#10;Updated data_error_impl.rb's copyright statement. Fixed data_error_impl.rb's YARDocumentation. Renamed data_error_test.rb data_error_impl_test.rb. Added a .yardopts file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Updated data_error_impl.rb's copyright statement. Fixed data_error_impl.rb's YARDocumentation. Renamed data_error_test.rb data_error_impl_test.rb. Added a .yardopts file." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -524,10 +537,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1582923892443" />
-    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2" timestamp="1587760144387">
+    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2" timestamp="1587764657329">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587760144387" />
+    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587764657329" />
     <state width="1537" height="235" key="GridCell.Tab.0.bottom" timestamp="1587763972296">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -596,10 +609,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="511" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587763187435" />
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587764109925">
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587764639094">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587764109925" />
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587764639094" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_error_impl@test_nil_argument_is_accept___.rcov" NAME="test_nil_argument_is_accept... Coverage Results" MODIFIED="1582847976664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />

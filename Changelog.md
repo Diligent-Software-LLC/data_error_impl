@@ -1,5 +1,25 @@
 # Changelog
 
+## v3.0.0, 2020-04-24
+
+### Added
+
+- A .yardopts file.
+- A .yardopts file assertion.
+
+### Edited
+
+- Copyright statements.
+- Formatted the Gem Specification.
+- Updated dependencies.
+- Renamed data_error_test.rb data_error_impl_test.rb.
+
+### Fixed
+
+- YARDocumentation.
+- Gem Specification attributes homepage, license, changelog_uri, and
+ description.
+
 ## v2.0.0, 2020-03-26
 
 ### Added
