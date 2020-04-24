@@ -38,7 +38,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="923f1be0-765c-49e0-8d3d-c5d199bfd455" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Changelog.md" beforeDir="false" afterPath="$PROJECT_DIR$/Changelog.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +299,7 @@
       <workItem from="1585070506162" duration="716000" />
       <workItem from="1585222434393" duration="9514000" />
       <workItem from="1585253526293" duration="1388000" />
-      <workItem from="1587759570105" duration="2722000" />
+      <workItem from="1587759570105" duration="3184000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repository.">
       <created>1574351852964</created>
@@ -467,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587764318503</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Prepare Deployment&#10;&#10;Updated Changelog.md.">
+      <created>1587764685514</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1587764685514</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
         <option name="defaultSearch" value="project: Data Subsystem: Error Component: Implementation Sprints: 4 State:{ Prepare Deployment} " />
@@ -513,7 +522,8 @@
     <MESSAGE value="Load Bug Fixed&#10;&#10;Renamed implementation files, appending _impl." />
     <MESSAGE value="Setup Complete&#10;&#10;Fixed version.rb YARDocumentation. Updated version.rb's copyright statement. Formatted the Gem Specification. Fixed the Gem Specification's homepage_uri, license, changelog_uri, and description. Updated the dependencies." />
     <MESSAGE value="Development Complete&#10;&#10;Updated data_error_impl.rb's copyright statement. Fixed data_error_impl.rb's YARDocumentation. Renamed data_error_test.rb data_error_impl_test.rb. Added a .yardopts file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Development Complete&#10;&#10;Updated data_error_impl.rb's copyright statement. Fixed data_error_impl.rb's YARDocumentation. Renamed data_error_test.rb data_error_impl_test.rb. Added a .yardopts file." />
+    <MESSAGE value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare Deployment&#10;&#10;Updated Changelog.md." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -537,10 +547,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="577" y="373" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.23.1680.975@0.23.1680.975" timestamp="1582923892443" />
-    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2" timestamp="1587764657329">
+    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2" timestamp="1587764685280">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587764657329" />
+    <state x="192" y="72" width="1325" height="871" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1587764685279" />
     <state width="1537" height="235" key="GridCell.Tab.0.bottom" timestamp="1587763972296">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -593,10 +603,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="241" y="149" key="SettingsEditor/0.23.1680.975@0.23.1680.975" timestamp="1582925093467" />
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1585254249492">
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2" timestamp="1587764735990">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1585254249492" />
+    <state x="327" y="250" key="Vcs.Push.Dialog.v2/0.23.1680.975@0.23.1680.975" timestamp="1587764735990" />
     <state x="619" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585253537235">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -609,10 +619,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="511" y="235" width="670" height="675" key="run.anything.popup/0.23.1680.975@0.23.1680.975" timestamp="1587763187435" />
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587764639094">
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1587765078843">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587764639094" />
+    <state x="853" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1587765078843" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_error_impl@test_nil_argument_is_accept___.rcov" NAME="test_nil_argument_is_accept... Coverage Results" MODIFIED="1582847976664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="data_error_impl" />

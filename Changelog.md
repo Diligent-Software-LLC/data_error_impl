@@ -13,6 +13,7 @@
 - Formatted the Gem Specification.
 - Updated dependencies.
 - Renamed data_error_test.rb data_error_impl_test.rb.
+- README.md.
 
 ### Fixed
 
