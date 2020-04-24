@@ -1,7 +1,7 @@
-require 'test_helper'
+require_relative 'test_helper'
 
 # DataErrorTest.
-# @abstract
+# @class_description
 #   Tests the DataError class.
 class DataErrorTest < Minitest::Test
 
@@ -9,38 +9,42 @@ class DataErrorTest < Minitest::Test
   DM = DataError::DEFAULT_MESSAGE
 
   # test_conf_doc_f_ex().
-  # @abstract
-  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, and README.md
-  #   files exist.
+  # @description
+  #   The .travis.yml, CODE_OF_CONDUCT.md, Gemfile, LICENSE.txt, README.md,
+  #   and .yardopts files exist.
   def test_conf_doc_f_ex()
+
     assert_path_exists('.travis.yml')
     assert_path_exists('CODE_OF_CONDUCT.md')
     assert_path_exists('Gemfile')
     assert_path_exists('LICENSE.txt')
     assert_path_exists('README.md')
+
   end
 
   # test_version_declared().
-  # @abstract
+  # @description
   #   version.rb defined the version.
   def test_version_declared()
-    refute_nil ::DataError::VERSION
+    refute_nil(DataError::VERSION)
   end
 
   # setup().
-  # @abstract
+  # @description
   #   Initializes fixtures.
   def setup()
+
     @x1_data = 'Test.'
     @y1_inst = DataError.new(@x1_data)
     @y2_inst = DataError.new()
     @x3_data = nil
+
   end
 
   # initialize(message = DEFAULT_MESSAGE)
 
   # test_init_x1().
-  # @abstract
+  # @description
   #   Arguing a String message. Returns a DataError object. The object's
   #   message is the argument.
   def test_init_x1()
@@ -49,38 +53,44 @@ class DataErrorTest < Minitest::Test
   end
 
   # test_init_x2().
-  # @abstract
+  # @description
   #   No argument initialization. Returns a DataError object. The message is
   #   the default message.
   def test_init_x2()
+
     expected_m = DM
     assert_instance_of(DataError, @y2_inst)
     assert_equal(expected_m, @y2_inst.message())
+
   end
 
   # test_init_x3().
-  # @abstract
+  # @description
   #   An invalid argument raises an ArgumentError.
   def test_init_x3()
+
     expected_m = "#{nil} is not a String."
     assert_raises(ArgumentError, expected_m) {
       DataError.new(@x3_data)
     }
+
   end
 
   # message()
 
   # test_message_x1().
-  # @abstract
+  # @description
   #   A String argument becomes the instance's message.
   def test_message_x1()
+
     expected_m = @x1_data
     actual_m   = @y1_inst.message()
     assert_same(expected_m, actual_m)
+
   end
 
   # test_message_x2().
-  # @abstract
+  # @description
   #   No argument. The default message becomes the message.
   def test_message_x2()
     expected_m = DM
@@ -88,17 +98,19 @@ class DataErrorTest < Minitest::Test
   end
 
   # test_message_x3().
-  # @abstract
+  # @description
   #   An invalid argument raises an ArgumentError.
   def test_message_x3()
+
     expected_m = "#{nil} is not a String."
     assert_raises(ArgumentError, expected_m) {
       DataError.new(@x3_data)
     }
+
   end
 
   # teardown().
-  # @abstract
+  # @description
   #   Cleans memory.
   def teardown()
   end
